@@ -10,8 +10,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="app_pktGen.vi" Type="VI" URL="../app_pktGen.vi"/>
+		<Item Name="app_pktParse.vi" Type="VI" URL="../app_pktParse.vi"/>
+		<Item Name="app_pktRebuild.vi" Type="VI" URL="../app_pktRebuild.vi"/>
+		<Item Name="crc16_dec.vi" Type="VI" URL="../crc16_dec.vi"/>
+		<Item Name="crc16_enc.vi" Type="VI" URL="../crc16_enc.vi"/>
 		<Item Name="parse_string.vi" Type="VI" URL="../parse_string.vi"/>
+		<Item Name="sim_test.vi" Type="VI" URL="../sim_test.vi"/>
 		<Item Name="simulation.vi" Type="VI" URL="../simulation.vi"/>
+		<Item Name="var_stop.vi" Type="VI" URL="../var_stop.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
